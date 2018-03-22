@@ -2,13 +2,16 @@
 calculates performance KPI's from a webpage using Puppeteer and the navigation timing API
 
 ## requirement
-- node.js version 7.6.0 or later
-- puppeteer version 1.2.0 or later
+- Node.js version 7.6.0 or later
+- Puppeteer version 1.2.0 or later
 
 ## configuration
 1. be sure to have node.js installed globally
 2. clone this repository and run 'npm install' in project folder
-3. add your url to the constant in index.js: const url = '{your url}';   // e.g. 'https://github.com/'
+3. add your url to the constant in index.js
+```
+const url = '{your url}';   // e.g. 'https://github.com/'
+````
 
 ## howto
 1. run 'node index.js' in project folder
