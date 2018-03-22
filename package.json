@@ -1,0 +1,32 @@
+{
+  "name": "navigation-timing-metrics",
+  "version": "1.0.0",
+  "description": "calculates performance KPI's from a webpage using Puppeteer and the navigation timing API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aykut-rocks/navigation-timing-metrics.git"
+  },
+  "keywords": [
+    "Puppeteer",
+    "navigation timing API",
+    "performance",
+    "metrics",
+    "KPI's"
+  ],
+  "author": "Aykut Sensoy",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/aykut-rocks/navigation-timing-metrics/issues"
+  },
+  "homepage": "https://github.com/aykut-rocks/navigation-timing-metrics#readme",
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "dependencies": {
+    "puppeteer": "^1.2.0"
+  }
+}
