@@ -12,7 +12,7 @@ let perfKPIs = async () => {
 
     const timingData = await page.evaluate(() => {
         const timing = {};
-        for (const key of Object.keys(window.performance.timing.__proto__)) {
+        for (const key of Object.keys(Object.getPrototypeOf(window.performance.timing))) {
             timing[key] = window.performance.timing[key];
         }
 
